@@ -15,5 +15,5 @@ def binarySearch(list, low, high, item):
 
 my_list = [0, 2, 4, 5]  # Sorted list
 
-print(binarySearch(my_list, 0, len(my_list) - 1, 4))  # Output: 1
-print(binarySearch(my_list, 0, len(my_list) - 1, -1))  # Output: None
+print(binarySearch(my_list, 0, len(my_list) - 1, 4))
+print(binarySearch(my_list, 0, len(my_list) - 1, -1))
